@@ -1,9 +1,7 @@
-*, a {
+* {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    text-decoration: none;
-   
 }
 
 body {
@@ -19,7 +17,7 @@ body {
     width: 100%;
 }
 
-.up{
+.up {
     background-color: #004156;;
     color: white;
     padding: 35px 15px 5px 15px;
@@ -67,15 +65,10 @@ body {
     font-size: 11px;
 }
 
-.box1{
+.box1 {
     display: flex;
     justify-content: space-between;
     margin-top: 15px;
-    
-}
-
-.box1, a{
-    color: white;
 }
 
 .trans {
