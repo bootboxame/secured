@@ -1,0 +1,92 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DASHBOARD</title>
+    <link rel="stylesheet" href="loan.css">
+</head>
+<body>
+    <div class="container">
+     <div class="upp">
+        <div class="bacc">
+            <a href="index.html"><img src="icons/icons8-back-30.png"></a>
+        </div>
+        <div class="titl">LOAN APPLICATION</div>
+        
+
+     </div>
+        <div class="main">
+            
+            <div class="mhead">
+                <form action="">
+                    <div class="fvk">
+                        <label for="amount">Loan Amt (USD$)</label>
+                        <input type="text" id="amount" name="amount"> 
+                    </div> 
+                    <div class="fvk">
+                        <label for="name">Beneficiary Name</label>
+                        <input type="text" id="name" name="name" placeholder="Beneficiary Name"> 
+                    </div>
+                    <div class="fvk">
+                        <label for="number">Beneficiary Amount Number</label>
+                        <input type="text" id="number" name="number" placeholder="Beneficiary Amount Number"> 
+                    </div>
+                    <div class="fvk">
+                        <label for="bname">Bank Name</label>
+                        <input type="text" id="bname" name="bname" placeholder="Bank Name"> 
+                    </div>
+                    <div class="fvk">
+                        <label for="Desc">Reason</label>
+                        <textarea id="Desc" name="Desc" cols="25" rows="5" placeholder=""></textarea> 
+                    </div>
+                    <div class="radd">
+                        <h4>Loan Type</h4>
+                        <input type="radio" id="actyp" name="actyp">
+                        <label for="actyp">STUDENTS LOAN</label>
+                        <br>
+                        <input type="radio" id="actyp" name="actyp">
+                        <label for="actyp">BUSINESS LOAN</label>
+                        <br>
+                        <input type="radio" id="actyp" name="actyp">
+                        <label for="actyp"> PROPERTY LOAN</label>
+                        <br>
+                        <input type="radio" id="actyp" name="actyp">
+                        <label for="actyp">INVESTMENT LOAN</label>
+                        <br>
+                        
+                    </div>
+                    <hr />
+                    <div class="butt">
+                        <button onclick="Myfun()">Transfer</button>
+                    </div>
+					
+                </form>            
+                
+            </div>
+			<div class="pop">
+	  <span class="close"
+	  onclick="this.parentElement.style.display='none';">&times;
+	  </span>
+	  <strong>Temporary frozen!</strong> Your last transaction was heighter than your account transaction limit<br>
+	  UPGRADE ACCOUNT
+	</div>
+        </div>     
+        <div class="bottom">
+            <img src=".\icons/dashboard.png">
+        <hr>
+            <img src=".\icons/checks.png">
+        <hr>
+            <img class="pm" src=".\icons/payments.png">
+        </div>
+
+    </div>
+	
+	
+  <script>
+  function Myfun()  {
+    alert("UPGRADE ACCOUNT");
+  }  
+  </script>  
+</body>
+</html>
